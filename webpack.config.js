@@ -5,7 +5,7 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
   filename: 'index.html',
   inject: 'body',
 });
-export const entry = `${__dirname  }/www/index.js`;
+export const entry = `${__dirname}/www/index.js`;
 export const module = {
   rules: [
     {
