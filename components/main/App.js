@@ -1,8 +1,10 @@
 import React from 'react';
+import WRCAppBar from '../wrappedComponents/WRCAppBar';
 
 const App = () => (
-  <div>Hello World</div>
+  <div>
+    <WRCAppBar title="Hello World" />
+  </div>
 );
 
 export default App;
-
